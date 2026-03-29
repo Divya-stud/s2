@@ -16,7 +16,7 @@ public class GoogleTitleTest {
 	WebDriverManager.chromedriver().driverVersion("132.0.6834.84").setup();
     // Initialize WebDriver (it uses ChromiumDriver internally)
     WebDriver driver = new ChromeDriver();  // Create a new ChromeDriver instance
-    driver.manage().window().maximize();
+    driver.manage().window().maximize();// use for magzimize
    try {
        // Open a website
        driver.get("https://www.google.com");
